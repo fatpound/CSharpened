@@ -1,10 +1,18 @@
 ﻿namespace Basics
 {
-    internal class Program
+    internal sealed class Program
     {
-        static void Main(string[] args)
+        static void Main(String[] args)
         {
-            Console.WriteLine("Hello, World!");
+            int[] dizi = { 1, 2, 3, 4, 5 };
+
+            foreach (var item in dizi)
+            {
+                global::System.Console.Write(item + " ");
+            }
+            
+            global::System.Console.WriteLine();
+            global::System.Console.WriteLine("Goodbye, cruel world!");
         }
     }
 }
