@@ -4,15 +4,15 @@
     {
         static void Main(String[] args)
         {
-            int[] dizi = { 1, 2, 3, 4, 5 };
+            int[] dizi = new int[] { 1, 2, 3, 4, 5 };
 
             foreach (var item in dizi)
             {
-                global::System.Console.Write(item + " ");
+                Console.Write(item + " ");
             }
             
-            global::System.Console.WriteLine();
-            global::System.Console.WriteLine("Goodbye, cruel world!");
+            Console.WriteLine();
+            Console.WriteLine("Goodbye, cruel world!");
         }
     }
 }
